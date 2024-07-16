@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>
+            fisherman
+       </title>
+       <style>
+         body{
+            background-color: black;
+         }
+          .main{
+            height: 400px;
+            width: 400px;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .container{
+            height: 300px;
+            width: 100px;
+            border: 1px solid violet;
+            margin-left: 10px;
+          }
+          .container:hover{
+            width:200px;
+            transition: all 1s;
+            cursor: pointer;
+          }
+          .container:hover h2{
+            transform: rotate(360deg);
+            margin-left: 50px;
+            transition: all 0.1s;
+          }
+          h2{
+            color: white;
+            transform: rotate(90deg);
+            margin-top: 150px;
+          }
+       </style>
+      </head>
+       <body>
+           <div class="main">
+              <div class="container"><h2>hove me</h2></div>
+              <div class="container"><h2>hover me</h2></div>
+              <div class="container"><h2>hover me</h2></div>
+           </div>
+       </body>
+</html>
